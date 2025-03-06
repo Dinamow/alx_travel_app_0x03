@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "alx-travel-app-0x01"
+version = "0.1.0"
+description = ""
+authors = ["DINAMOW <meemoo102039@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.6"
+django-restframework = "^0.0.1"
+django-environ = "^0.12.0"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.7.0"
+faker = "^36.2.2"
+celery = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
